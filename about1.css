@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about1 {
+  width: 100%;
+  background-color: #6f42c1;
+  border-top-left-radius: 280px;
+  border-bottom-right-radius: 280px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  padding: 0 200px;
+}
+.text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.text h1 {
+  font-size: 2.5rem;
+  font-weight: 1000;
+}
+.text p {
+  font-size: 1.1rem;
+  line-height: 25px;
+  letter-spacing: 0.8px;
+}
+.photo img {
+  height: 550px;
+}
+
+.text a {
+  margin-top: 15px;
+  padding: 13px 30px;
+  width: 180px;
+  color: white;
+  background-color: #fd7e14;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.text a:hover {
+  margin-left: 5px;
+  transition: all 1s;
+}
+
+@media (max-width: 1526px) {
+}
+
+@media (max-width: 1300px) {
+  .about1 {
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    gap: 30px;
+    padding: 0 100px;
+    height: 500px;
+  }
+  .photo img {
+    height: 350px;
+  }
+}
+@media (max-width: 1120px) {
+  .about1 {
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    gap: 30px;
+    padding: 0 100px;
+    height: 500px;
+  }
+  .photo img {
+    height: 350px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about1 {
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    gap: 20px;
+    padding: 0 80px;
+    height: 450px;
+  }
+  .text {
+    gap: 10px;
+  }
+  .text h1 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .text p {
+    font-size: 1rem;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+  }
+  .photo img {
+    height: 300px;
+  }
+  text a {
+    margin-top: 10px;
+    padding: 10px 20px;
+    width: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about1 {
+    border-top-left-radius: 170px;
+    border-bottom-right-radius: 170px;
+    flex-direction: column;
+    gap: 30px;
+    padding: 100px;
+    height: 850px;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .text h1 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .text p {
+    font-size: 1rem;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+  }
+  .photo img {
+    height: 300px;
+  }
+
+  text a {
+    margin-top: 5px;
+    padding: 5px 5px;
+    width: 100px;
+  }
+}
+@media (max-width: 576px) {
+  .about1 {
+    height: 900px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about1 {
+    height: 900px;
+    padding: 50px 100px;
+  }
+}
+
+@media (max-width: 420px) {
+  .about1 {
+    height: 950px;
+    padding: 50px 100px;
+  }
+}
+
+@media (max-width: 376px) {
+}
